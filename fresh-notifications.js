@@ -11,6 +11,13 @@ FreshNotify = function(params){
     if(params.top){ Notification.css({
             'top': params.top
     });}
+    if(params.bottom){ Notification.css({
+        'bottom': params.bottom
+    });
+    Notification.css({
+        'top': 'auto'
+    });
+    }
     if(params.icon){
         Notification.append('<span class="fa fa-' + params.icon + '"></span>');
         Notification.addClass('fresh-iconify');

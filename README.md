@@ -4,13 +4,7 @@ This is a package for Meteor + React, that adds configurable in-app notification
 
 #### Installation
 
-Clone this repository into your app/packages directory and, add the following somewhere in your app:
-
-```jsx
-<FreshNotifications />
-```
-
-Then, from the root directory of your app, run:
+Clone this repository into your app/packages directory and, from the root directory of your app, run:
 
 ```
 meteor add nickgermaine:fresh-notifications
